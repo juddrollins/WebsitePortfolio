@@ -12,38 +12,53 @@
 
 
 <html lang="en">
-	<head>
-    <!-- Required meta tags for Bootstrap -->
-    <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
-		<!-- External file for JavaScript functions -->
-		<script src="/js/myScript.js"></script>
-    
-    <title>Leave a message</title>
 
-	</head>
-	<body>
-		
-		<!-- Holder class for navigation bar -->
-		<div id="nav-holder">	    
-			<script>
-				getNavbar();
-			</script>
+<head>
+	<!-- Required meta tags for Bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- External file for JavaScript functions -->
+	<script src="/js/myScript.js"></script>
+
+	<title>Leave a message</title>
+
+</head>
+
+<body>
+
+	<!-- Holder class for navigation bar -->
+	<div id="nav-holder">     
+		<script>
+			getNavbar();
+		</script>
+	</div>
+
+	<!-- First section of info on information page -->
+	<div class="container-fluid">
+		<div class="row">
+			<div clas="col-sm-4">
+				<img src="/images/post-it-note.jpg" alt="Image of Note">
+			</div>
+			<div class="col-sm-8">
+				<h2>
+					Leave a message! All messages will be sent to my personal email!
+				</h2>
+			</div>
 		</div>
+	</div>
 
-		<!-- First section of info on information page -->
-		<div class="container">
-    		<div class="blurb">
-            <h1>Judd Rollins Information Page!</h1>
-            <img src="/images/post-it-note.jpg" class="img-responsive">
-            
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="https://github.com/juddrollins">github.com/juddrollins</a></li>
-			</ul>
-		</footer>
-	</body>
+	<!-- TextBox for the sender to leave a message -->
+	<div class="container-fluid">
+		<form action="validate()"></form>
+	</div>
+
+	<!-- Footer that leaves the link to personal github page-->
+	<footer>
+		<ul>
+			<li><a href="https://github.com/juddrollins">github.com/juddrollins</a></li>
+		</ul>
+	</footer>
+</body>
+
 </html>
